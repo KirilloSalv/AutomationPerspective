@@ -1,11 +1,11 @@
 package dto.customerData;
 
+import payment.dto.Card;
+
 public class CardSelector {
 
     public static Card get(CardType type) {
-
         return switch (type) {
-
             case OTP -> new Card(
                     "4000000000000002",
                     "Frolik Bolik",

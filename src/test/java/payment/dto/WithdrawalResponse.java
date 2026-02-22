@@ -1,10 +1,11 @@
-package dto.PayoutCustomerData;
+package payment.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import dto.PayoutCustomerData.ResultResponsePayoutObject;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 
-public record withdrawalResponse(
+public record WithdrawalResponse(
         String timestamp,
         String status,
         String error,

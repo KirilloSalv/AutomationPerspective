@@ -1,4 +1,4 @@
-package dto.customerData;
+package payment.dto;
 
 public record Card(
         String cardNumber,
